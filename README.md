@@ -2,6 +2,62 @@
 
 A comprehensive Chrome extension that tracks time spent on websites and provides detailed productivity analytics with weekly reports.
 
+---
+
+## 📝 Description
+ProductiveFocus is a feature-rich, privacy-conscious Chrome Extension designed to help users track time spent on websites, measure productivity, and develop healthier digital habits. Built with modern web technologies (HTML, CSS, JavaScript, Chrome Extension APIs), the tool runs seamlessly in the browser, providing real-time tracking, insightful analytics, and weekly reports—all while storing data locally for complete user privacy.
+
+This extension was developed as a solo project with the aim to address one of the most common productivity challenges: time leakage due to unconscious web browsing. ProductiveFocus monitors active browser tabs, categorizes websites intelligently (e.g., productive, unproductive, or neutral), and generates clear, interactive analytics—helping users visualize how their time is distributed across platforms like GitHub, Stack Overflow, YouTube, and social media.
+
+Unlike many productivity tools that require cloud sync or signup, ProductiveFocus is fully local-first. It uses Chrome’s local storage and avoids third-party trackers, making it ideal for privacy-focused users. The tracking is done in the background using a lightweight service worker (background.js), while a content.js script detects user interaction (mouse, keyboard, scrolling) to ensure accurate active-time tracking.
+
+The popup UI offers a quick glance at daily stats—such as focus time, distractions, and active sessions—while the dashboard.html page provides in-depth visualizations using Chart.js. Users can view trends by day, week, or month, filter by categories, and even export their activity data in JSON format.
+
+The productivity scoring system dynamically calculates user focus based on time allocation, and delivers personalized productivity insights that evolve as the user’s habits change. The app also highlights top distracting websites, enables goal-setting, and tracks improvements over time.
+
+Key Highlights:
+
+🔹 Built using Chrome Manifest V3 for performance and compatibility
+
+🔹 Tracks active tab usage using Chrome Extension APIs
+
+🔹 Categorizes websites using predefined rules (editable in code)
+
+🔹 Features a fully responsive analytics dashboard
+
+🔹 Allows data export for personal archiving or analysis
+
+🔹 No user account or login required
+
+🔹 Clean UI with popup and full dashboard views
+
+🔹 100% offline-first and privacy-respecting
+
+Target Users:
+
+This extension is built for:
+
+Students looking to optimize their study hours
+
+Developers who want to reduce time on distracting sites
+
+Remote workers and freelancers monitoring their focus
+
+Productivity enthusiasts and quantified-self users
+
+Real-World Applications:
+
+Portfolio Demonstration: Showcases mastery of browser APIs and frontend UX
+
+Behavioral Analytics: Visualize focus trends and distractions
+
+Time Management Coaching: Can serve as a self-feedback tool
+
+Extension Development: Demonstrates experience with Manifest V3 and Chrome's service worker model
+
+This project reflects strong problem-solving ability, end-to-end product thinking, and the ability to integrate front-end and background logic effectively. The development required practical skills in event-based programming, data visualization, browser extension architecture, and UX design
+
+---
 
 ## 📸 Screenshots
 
@@ -19,6 +75,7 @@ A comprehensive Chrome extension that tracks time spent on websites and provides
 > 📈 Tracking Results – Categorized Website Usage  
 <img src="https://github.com/user-attachments/assets/fd255dee-c189-4bd7-a3c5-9113fb6ac858" width="600" />
 
+---
 
 ## 🌟 Features
 
@@ -47,6 +104,8 @@ A comprehensive Chrome extension that tracks time spent on websites and provides
 - **Export Functionality**: Download data in JSON format
 - **Responsive Design**: Works on all screen sizes
 
+---
+
 ## Installation
 
 1. Clone or download this repository
@@ -54,6 +113,8 @@ A comprehensive Chrome extension that tracks time spent on websites and provides
 3. Enable "Developer mode" in the top right
 4. Click "Load unpacked" and select the extension folder
 5. The extension will appear in your Chrome toolbar
+
+---
 
 ## Usage
 
@@ -74,6 +135,8 @@ A comprehensive Chrome extension that tracks time spent on websites and provides
 - Data is exported in JSON format for further analysis
 - Includes all historical data and categorizations
 
+---
+
 ## Website Categories
 
 ### Productive Categories
@@ -89,12 +152,16 @@ A comprehensive Chrome extension that tracks time spent on websites and provides
 ### Neutral
 - All other websites are categorized as "Other"
 
+---
+
 ## Privacy
 
 - **Local Storage Only**: All data is stored locally on your device
 - **No Data Transmission**: No data is sent to external servers
 - **User Control**: You have complete control over your data
 - **Export/Delete**: Easily export or delete your data anytime
+
+---
 
 ## Technical Details
 
@@ -114,6 +181,8 @@ A comprehensive Chrome extension that tracks time spent on websites and provides
 ### Browser Compatibility
 - Chrome 88+ (Manifest V3)
 - Chromium-based browsers (Edge, Brave, etc.)
+
+---
 
 ## Development
 
@@ -152,6 +221,8 @@ A comprehensive Chrome extension that tracks time spent on websites and provides
 - Detailed website statistics
 - Weekly report generation
 
+---
+
 ## Future Enhancements
 
 - [ ] Focus mode with website blocking
@@ -162,3 +233,5 @@ A comprehensive Chrome extension that tracks time spent on websites and provides
 - [ ] Mobile app companion
 - [ ] Cloud sync (optional)
 - [ ] Custom categories and rules
+
+---
