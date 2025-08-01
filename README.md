@@ -1,3 +1,16 @@
+**COMPANY**: CODTECH IT SOLUTIONS
+
+**NAME**: RESHMA M
+
+**INTERN ID**: CT04DH1296
+
+**DOMAIN**: FULL STACK WEB DEVELOPMENT
+
+**DURATION**:4 WEEEKS
+
+**MENTOR**: NEELA SANTOSH
+
+
 # 🕒 ProductiveFocus - Chrome Extension for Time Tracking and Productivity Analytics
 
 A comprehensive Chrome extension that tracks time spent on websites and provides detailed productivity analytics with weekly reports.
