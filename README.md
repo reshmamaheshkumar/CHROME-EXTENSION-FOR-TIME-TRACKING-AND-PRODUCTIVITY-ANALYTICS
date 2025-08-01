@@ -1,8 +1,15 @@
-# ProductiveFocus - Chrome Extension for Time Tracking and Productivity Analytics
+# 🕒 ProductiveFocus - Chrome Extension for Time Tracking and Productivity Analytics
 
 A comprehensive Chrome extension that tracks time spent on websites and provides detailed productivity analytics with weekly reports.
 
-## Features
+## 📸 Screenshots
+> 🧩 Popup View  
+![Popup Screenshot](screenshots/popup-screenshot.png)
+
+>> 📊 Dashboard Analytics  
+![Dashboard Screenshot](screenshots/dashboard-screenshot.png)
+
+## 🌟 Features
 
 ### Core Functionality
 - **Real-time Website Tracking**: Automatically tracks time spent on all websites
@@ -134,18 +141,6 @@ A comprehensive Chrome extension that tracks time spent on websites and provides
 - Detailed website statistics
 - Weekly report generation
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## License
-
-This project is open source and available under the MIT License.
-
 ## Future Enhancements
 
 - [ ] Focus mode with website blocking
@@ -156,7 +151,3 @@ This project is open source and available under the MIT License.
 - [ ] Mobile app companion
 - [ ] Cloud sync (optional)
 - [ ] Custom categories and rules
-
-## Support
-
-For support, feature requests, or bug reports, please create an issue in the repository.
