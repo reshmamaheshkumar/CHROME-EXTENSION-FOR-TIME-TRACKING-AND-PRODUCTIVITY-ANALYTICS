@@ -3,8 +3,9 @@
 A comprehensive Chrome extension that tracks time spent on websites and provides detailed productivity analytics with weekly reports.
 
 ## 📸 Screenshots
+
 > 🧩 Popup View  
-![Popup Screenshot](screenshots/popup-screenshot.png)
+<img src="https://github.com/user-attachments/assets/58b88836-bdc4-4a14-9e0d-7ab9d06055e7" width="500" />
 
 >> 📊 Dashboard Analytics  
 ![Dashboard Screenshot](screenshots/dashboard-screenshot.png)
